@@ -1,0 +1,11 @@
+libvpx: libvpx (VP8 video codec from Open Web Media Project)
+libvpx:
+libvpx: VP8 is a highly efficient video compression technology, that was
+libvpx: originally developed by On2 Technologies and then released as open
+libvpx: source by Google Inc.  It is the successor of the VP3 codec, on
+libvpx: which the Theora codec was based.
+libvpx:
+libvpx:
+libvpx:
+libvpx:
+libvpx: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
