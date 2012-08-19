@@ -19,16 +19,14 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: libvpx.SlackBuild,v 1.4 2012/08/19 12:23:42 gsotirov Exp $
+# $Id: libvpx.SlackBuild,v 1.5 2012/08/19 12:39:23 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=libvpx
 VERSION=1.1.0
-if [ "$ARCH" = "i486" ]; then
-  ARCH=i686
-fi
+ARCH=${ARCH:-i686}
 BUILD=${BUILD:-1}
 
 CWD=${CWD:-`pwd`}
@@ -60,7 +58,7 @@ fix_source
 # Configure
 CFLAGS=$SLKCFLAGS \
 CPPFLAGS=$SLKCFLAGS \
-./configure --prefix=/usr \
+./configure --prefix=/usr --libdir=/usr/lib${LIBDIRSUFFIX} \
             --enable-shared \
 	    --enable-vp8 \
 	    --enable-postproc \
