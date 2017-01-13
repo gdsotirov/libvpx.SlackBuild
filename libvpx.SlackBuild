@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 # Slackware build script for libvpx
-# Copyright (C) 2010-2016 Georgi D. Sotirov <gdsotirov@dir.bg>
+# Copyright (C) 2010-2017 Georgi D. Sotirov <gdsotirov@dir.bg>
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -19,13 +19,13 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: libvpx.SlackBuild,v 1.9 2016/08/24 13:39:03 gsotirov Exp $
+# $Id: libvpx.SlackBuild,v 1.10 2017/01/13 16:33:42 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=libvpx
-VERSION=1.6.0
+VERSION=1.6.1
 ARCH=${ARCH:-i686}
 BUILD=${BUILD:-1}
 
